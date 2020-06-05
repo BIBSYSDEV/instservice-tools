@@ -242,11 +242,11 @@ public class CleanUp {
     }
 
     public static void main(String... args) throws SQLException, IOException {
-        // CleanUp.addActive();
-        // CleanUp.deleteDuplicateLinks();
-        // CleanUp.changeLibraryNames();
-        // CleanUp.deleteUnits();
-        // CleanUp.moveLinks();
+        CleanUp.addActive();
+        CleanUp.deleteDuplicateLinks();
+        CleanUp.changeLibraryNames();
+        CleanUp.deleteUnits();
+        CleanUp.moveLinks();
         CleanUp.deleteLinks();
     }
 }
